@@ -47,7 +47,7 @@ firewall-helper.sh
 
 3️⃣ Protección de logs del sistema
 secure-logs.sh
-- Refuerza la seguridad de /var/log/auth.log, syslog y kern.log.
+- Refuerza la seguridad de /var/log/journal.
 - Cambia propietario a root y permisos a 600.
 - Uso: sudo ./tools/secure-logs.sh
 
@@ -100,6 +100,12 @@ Objetivos del proyecto:
 - Aprendizaje en seguridad Linux
 - Práctica en bastionado de sistemas
 - Auditoría de seguridad y monitorización
+
+---
+
+Video explicativo:
+
+https://youtu.be/VYz7I8F_TyA
 
 ---
 
